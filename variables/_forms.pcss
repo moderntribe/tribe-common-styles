@@ -15,3 +15,26 @@
 
 	--tec-form-box-shadow-default: var(--tec-box-shadow-default);
 }
+
+/* -----------------------------------------------------------------------------
+ * For backwards Compatibility with plugins that have not been updated yet.
+ * Remove these once ALL plugins have been updated to use the namespaced vars.
+ * ----------------------------------------------------------------------------- */
+
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Forms - Colors
+	 * ----------------------------------------------------------------------------- */
+
+	--form-color-background: var(--tec-color-background);
+	--form-color-border-default: var(--tec-color-text-primary);
+	--form-color-border-active: var(--tec-color-accent-secondary);
+	--form-color-border-secondary: var(--tec-color-border-tertiary);
+	--form-color-accent-primary: var(--tec-color-accent-primary);
+
+	/* -----------------------------------------------------------------------------
+	 * Forms - Box Shadows
+	 * ----------------------------------------------------------------------------- */
+
+	--form-box-shadow-default: var(--tec-box-shadow-default);
+}
